@@ -1,0 +1,11 @@
+<p>
+    List Of Cities!
+</p>
+
+
+<div>
+    <button style="padding:10px;margin:10px" *ngFor='let city of cityList ' (click)='getWeatherList(city.name)'>
+        {{city.name}}
+
+    </button>
+</div>
